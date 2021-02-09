@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <nuxt-link to="/users">Users</nuxt-link>
+    <button><nuxt-link to="/products">Products</nuxt-link></button>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ export default Vue.extend({});
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   text-align: center;
 }

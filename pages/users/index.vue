@@ -6,7 +6,9 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from "vue";
+
+export default Vue.extend({
   data() {
     return {
       userId: "",
@@ -17,5 +19,5 @@ export default {
       this.$router.push("/users/" + this.userId);
     },
   },
-};
+});
 </script>
